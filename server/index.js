@@ -21,7 +21,8 @@ server.listen(port, async () => {
   console.log("| Port         : " + port);
   console.log("| Date         : " + data.toJSON().split("T").join(" "));
   console.log("|--------------------------------------------");
-  console.log("| Server is listening on 4000! ");
+  console.log(`| Server is listening on ${port}!`);
+
   console.log("|--------------------------------------------");
   
   // Run status check automatically on startup
