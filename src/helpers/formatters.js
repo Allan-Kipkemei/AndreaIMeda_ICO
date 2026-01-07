@@ -2,6 +2,11 @@ export const n6 = new Intl.NumberFormat("en-us", {
   style: "decimal",
   minimumFractionDigits: 0,
   maximumFractionDigits: 6,
+  useGrouping: false
+
+
+
+
 });
 export const n4 = new Intl.NumberFormat("en-us", {
   style: "decimal",
