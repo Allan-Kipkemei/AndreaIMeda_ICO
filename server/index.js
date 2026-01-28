@@ -1,6 +1,4 @@
-/*******************************************************
- *      Server Starts From Here                        *
- *******************************************************/
+//strict
 "use strict";
 
 require("dotenv").config();
@@ -13,7 +11,7 @@ const server = http.createServer(app);
 
 app.set("PORT_NUMBER", port);
 
-//  Start the app on the specific interface (and port).
+
 server.listen(port, async () => {
   const data = new Date();
   console.log("|--------------------------------------------");
